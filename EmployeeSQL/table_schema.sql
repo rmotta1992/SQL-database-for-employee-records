@@ -33,8 +33,9 @@ CREATE TABLE titles(
 );
 SELECT * FROM titles
 
+
 CREATE TABLE salaries( 
-	emp_no VARCHAR(30),
+	emp_no INTEGER,
 	salary INTEGER
 );
 SELECT * FROM salaries
