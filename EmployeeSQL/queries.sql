@@ -23,3 +23,6 @@ ON employees.emp_no = employee_dept.emp_no
 LEFT JOIN departments
 ON employee_dept.dept_no = departments.dept_no;
 
+SELECT first_name, last_name, sex
+FROM EMPLOYEES
+WHERE first_name = 'Hercules' AND last_name LIKE 'B%';
