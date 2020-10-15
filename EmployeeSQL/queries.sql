@@ -43,3 +43,7 @@ LEFT JOIN departments
 ON employee_dept.dept_no = departments.dept_no
 WHERE departments.dept_name = 'Sales' OR departments.dept_name = 'Development';
 
+SELECT last_name, COUNT(*) AS "name_count"
+FROM EMPLOYEES 
+GROUP BY last_name
+ORDER BY "name_count" DESC;
