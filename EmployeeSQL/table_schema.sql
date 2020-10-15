@@ -5,14 +5,14 @@ CREATE TABLE departments(
 SELECT * FROM departments;
 
 CREATE TABLE employee_dept(
-	emp_no VARCHAR(30),
+	emp_no INTEGER,
 	dept_no VARCHAR(30)
 );
 SELECT * FROM employee_dept
 
 CREATE TABLE dept_manager(
 	dept_no VARCHAR(30),
-	emp_no VARCHAR(30)
+	emp_no INTEGER
 );
 SELECT * FROM dept_manager
 
