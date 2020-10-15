@@ -15,3 +15,11 @@ LEFT JOIN dept_manager
 ON departments.dept_no = dept_manager.dept_no
 LEFT JOIN employees
 ON dept_manager.emp_no = employees.emp_no;
+
+SELECT employee_dept.emp_no, employees.last_name, employees.first_name, departments.dept_name
+FROM employees
+LEFT JOIN employee_dept
+ON employees.emp_no = employee_dept.emp_no 
+LEFT JOIN departments
+ON employee_dept.dept_no = departments.dept_no;
+
