@@ -1,21 +1,16 @@
-# sql-challenge
-Repo for SQL Homework
+# Employee SQL Database
+![image1](images/search-manager.png)
+## Scope
 
+This project created a database using SQL to store multiple tables with employee information. By housing the data here it makes it easier to looks up information and combine it with info that is stored in another table. Making use of correct joins and primary keys allows users to find the relevant data that they need in a timely and efficient manner.  
 
-data analysis completed in vs code and pgadmin
+![image2](images/search-name.png)
 
+## Technologies Used
+PostgeSQL - SQL database where tables and data where created and stored
 
-pushed multiple commits to both shcemas in employee-sql folder
+PgAdmin - used to create schemas for tables and queries for searching them  
 
-
-added a commit for eaach query completed  
-
-
-added new commits for changes made to the tables 
-    such as fixing mistkaes in data types
-    removing some lines of code that where usseful only for cheking table format
-
-
-assigmnent was challenging enough to practice the material but not overwhleming 
+![image3](images/sort-order.png)
 
 
